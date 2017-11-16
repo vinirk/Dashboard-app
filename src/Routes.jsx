@@ -11,7 +11,7 @@ import NotFoundScene from './views/notfound/components/NotFoundScene';
 const Routes = () => (
   <Router>
     <Switch>
-      <Route exact path="/" component={DashboardListContainer}/>
+      <Route exact path="/dasboard" component={DashboardListContainer}/>
       <Route component={NotFoundScene} />
     </Switch>
   </Router>
